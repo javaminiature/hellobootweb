@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hellobootweb:
+    build:
+        context: ./
+        dockerfile: HellobootWebDockerfile
+    image: hellobootweb
+    ports: 
+      - "8080:8080"
+      
